@@ -1,10 +1,12 @@
 <?php 
 
+	require_once 'library.php';
+	require_once 'book.php';
+	require_once 'facility.php';
 
+	echo "App starting <br>";
 
-
-
-	echo 'Hello World';
+	
 
 
 
@@ -18,6 +20,6 @@
 	
 
 
-	
+
 
 </script>
