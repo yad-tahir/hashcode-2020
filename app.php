@@ -15,8 +15,8 @@
 	// }
 
 	// print("<pre>".print_r($books,true)."</pre>");
-	$data = new book( 	0, ('Book number 0') , 5 );
-	print_r( $data );
+	$books = new book( 	0, 'Book number 0' , 5 );
+	echo $books ;
  ?>
 
 
