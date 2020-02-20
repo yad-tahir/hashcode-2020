@@ -9,15 +9,14 @@ class book
 	public $name;
 	public $score;
 
-	function __construct($i,$n,$no)
+	function __construct($id,$name,$score)
 	{
-		$id = $i;
-		$name = $n;
-		$score = $no;
+		 $this->$id = $id;
+		 $this->$name = $name;
+		 $this->$score = $score;
 
-		// echo $this->id=3;
-		
 	}
+
 }
 
 

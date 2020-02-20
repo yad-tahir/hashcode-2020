@@ -1,11 +1,14 @@
-public class library {
-int libId;
-String libName;
-int scansPerDay;
-int sendtime;
-int books[];
+import book;
 
-library(int libId, String libName, int scansPerDay, int sendtime, int[] books){
+public class library {
+
+public int libId;
+public String libName;
+public int scansPerDay;
+public int sendtime;
+public int books[];
+
+library(int libId, String libName, int scansPerDay, int sendtime, book[] books){
 
     this.libId=libId;
     this.libName=libName;
@@ -13,10 +16,14 @@ library(int libId, String libName, int scansPerDay, int sendtime, int[] books){
     this.sendtime=sendtime;
     this.books=books;
 }
-void send(int bookid){
 
+public book getBook(book mybook,int key){
+	return this.books[key];	
 }
 
+public void queueBooks(){
+	return this.books	
+} 
 
 
 }
