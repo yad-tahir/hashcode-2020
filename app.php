@@ -1,7 +1,7 @@
 <?php 
 
 	require_once 'library.php';
-	require_once 'booker.php';
+	require_once 'book.php';
 	require_once 'facility.php';
 
 	echo "App starting <br>";
@@ -17,7 +17,7 @@
 	// }
 
 	// print("<pre>".print_r($books,true)."</pre>");
-	$books = new booker( 	0, 'Book number 0' , 5 );
+	$books = new book( 	0, 'Book number 0' , 5 );
 	print_r($books);
  ?>
 
